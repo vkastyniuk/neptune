@@ -9,6 +9,7 @@ import scrapy
 
 
 class Company(scrapy.Item):
+    id = scrapy.Field()
     url = scrapy.Field()
     name = scrapy.Field()
     categories = scrapy.Field()
